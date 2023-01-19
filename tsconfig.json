@@ -26,5 +26,5 @@
   "include": [
     "src"
   ],
-  "exclude": ["node_modules", "dist", "**/*.test.ts", ".coverage", "config"]
+  "exclude": ["node_modules", "dist", "**/*.test.tsx", ".coverage", "config"]
 }
