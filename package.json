@@ -1,11 +1,11 @@
 {
-  "name": "webpack-configuration",
+  "name": "react-webpack-configuration",
   "version": "1.0.0",
   "private": true,
   "author": "AlexEvs",
   "description": "Example of custom configuration of React + Webpack",
   "repository": {
-    "url": "https://github.com/a1exevs/webpack-configuration"
+    "url": "https://github.com/a1exevs/react-webpack-configuration"
   },
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack --mode development",

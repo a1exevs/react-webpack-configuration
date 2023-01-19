@@ -42,4 +42,4 @@ Formats/lints the code of app.
 
 ## Repository
 
-Link to repository https://github.com/a1exevs/webpack-configuration
+Link to repository https://github.com/a1exevs/react-webpack-configuration
