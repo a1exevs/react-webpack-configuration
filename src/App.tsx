@@ -1,23 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import webpackLogo from 'src/logo.webpack.svg';
+import reactLogo from 'src/logo.react.svg';
+import 'src/App.less';
 
 function App() {
   return (
     <div className="App">
+      <label className="App-label">React + Webpack</label>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img src={reactLogo} className="App-logo" alt="logo" />
+        <img src={webpackLogo} className="App-logo App-logo--small" alt="logo" />
       </header>
     </div>
   );
