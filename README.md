@@ -22,10 +22,11 @@ You will also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.
 
-### `npm run dev`
+### `npm run build:pre`
+### `npm run build:dev`
+### `npm run build:prod`
+### `npm run build:post`
 ### `npm run watch`
-### `npm run prebuild`
-### `npm run build`
 
 Builds the app for development/production to the `dist` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.

@@ -11,9 +11,7 @@ const {DotenvCmdWebpack} = require('dotenv-cmd-webpack');
 const isDev = process.env.NODE_ENV === 'development'
 const isProd = !isDev
 
-if (isDev) {
-  ESLintWebpackPlugin = require('eslint-webpack-plugin')
-}
+const ESLintWebpackPlugin = isDev ? require('eslint-webpack-plugin') : undefined
 
 const optimization = () => {
   const config = {
@@ -109,7 +107,8 @@ const plugins = () => {
 
   if (isDev) {
     base.push(new ESLintWebpackPlugin({
-      extensions: ['js', 'ts', 'jsx', 'tsx']
+      extensions: ['js', 'ts', 'jsx', 'tsx'],
+      fix: true,
     }))
   }
 
